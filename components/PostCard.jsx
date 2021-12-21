@@ -19,7 +19,7 @@ const PostCard = ({ post }) => {
     </Link>
    </h1>
    <div className="block lg:flex text-center items-center justify-center mb-8 w-full">
-    <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8 items-center">
+    <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8">
      <img
       alt= {post.author.name}
       height="30px"
